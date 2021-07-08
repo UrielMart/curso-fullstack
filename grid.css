@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: rgb(129, 178, 218);
+}
+
+.container > .item {
+    background: #777;
+    width: 50%;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    width: 500px;
+}
+
+/*
+.main div:nth-of-type(1){
+    flex-grow: 1;
+}*/
+
+.item-1{ flex-basis: 100px; flex-grow: 1}
+
+.item-2{ flex-basis: 100px; flex-grow: 2}
+
+.item-3{ flex-basis: 100px; flex-grow: 1}
+
+.item-4{ flex-basis: 100px; flex-grow: 1}

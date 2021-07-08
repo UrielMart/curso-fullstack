@@ -1,0 +1,151 @@
+body {
+  background-color: #f1e3ff;
+}
+
+h1 {
+  color: #46484c;
+  font-size: 60px;
+}
+
+p {
+  color: #8b8b8bcc;
+}
+
+button {
+  color: #fff;
+  background: #025157;
+}
+input {
+  background-color: rgb(223, 223, 238);
+}
+header {
+  line-height: 45px;
+  height: 60px;
+  font-family: sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
+main {
+  margin-top: 30px;
+}
+
+header > * {
+  font-size: 15px;
+}
+
+li {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #025157;
+}
+
+.actions > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+.actions a {
+  color: #67b54b;
+}
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: #025157;
+}
+.logo {
+  width: 15%;
+}
+
+.anuncio {
+  margin-left: 10px;
+}
+.anuncio h1 {
+  font-family: "Century Gothic", serif;
+  color: #025157;
+}
+.anuncio > p {
+  font-family: "Century Gothic", serif;
+  color: #343434;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  padding: 0px;
+}
+
+.videoPromo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  main {
+    margin-top: 20px;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  .formulario > form {
+    flex-direction: column;
+  }
+  .formulario > form > div > input {
+    width: 80%;
+    margin: 5px 0px 5px;
+  }
+  .promo {
+    flex-direction: column;
+  }
+
+  .features,
+  .cards {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .feature-image {
+    display: none;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+}

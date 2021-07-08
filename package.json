@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.35.1",
+    "vue": "^2.6.14"
+  },
+  "name": "bedu",
+  "description": "git Init",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/UrielMart/santander-full-stack.git"
+  },
+  "author": "Uriel Martinon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/UrielMart/santander-full-stack/issues"
+  },
+  "homepage": "https://gitlab.com/UrielMart/santander-full-stack#readme"
+}
